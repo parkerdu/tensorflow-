@@ -1,3 +1,9 @@
+"""
+只有输入输出层
+激活函数softmax
+代价函数：交叉熵tf.nn.softmax_cross_entropy_with_logits
+优化器：梯度下降
+"""
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
