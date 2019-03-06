@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a9c790-8a5d-41a6-834e-4ce35bafbf81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tensorflow学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow学习.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-2变量.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2-2变量.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-3 Fetch and Feed.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2-3 Fetch and Feed.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-4 tensorflow 简单实例.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2-4 tensorflow 简单实例.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-2 minist数据集分类简单版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-2 minist数据集分类简单版本.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,45 +50,40 @@
     <session id="-1485840897">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="1673" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="1673" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="3" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="3" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-4 tensorflow 简单实例.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-2变量.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
@@ -118,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/3-2 minist数据集分类简单版本.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -129,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="532">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -141,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/ops/nn_impl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-741">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="2744">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -150,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/training/gradient_descent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-920">
+            <state relative-caret-position="672">
               <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
             </state>
           </provider>
@@ -159,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/examples/tutorials/mnist/input_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
+            <state>
               <folding>
                 <element signature="e#746#784#0" expanded="true" />
               </folding>
@@ -170,7 +158,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
+            <state relative-caret-position="75516">
               <caret line="2715" column="4" selection-start-line="2715" selection-start-column="4" selection-end-line="2715" selection-end-column="4" />
             </state>
           </provider>
@@ -179,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
+            <state relative-caret-position="8260">
+              <caret line="324" selection-start-line="324" selection-end-line="324" />
             </state>
           </provider>
         </entry>
@@ -214,10 +202,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="457" />
-    <option name="y" value="6" />
-    <option name="width" value="975" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="2580" />
+    <option name="height" value="1450" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,7 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../文本相似度/deeplearning_by_diye" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../新baize/baize/baize" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -354,7 +342,6 @@
     </configuration>
     <list>
       <item itemvalue="Python.3-1 线性回归" />
-      <item itemvalue="Python.3-1 非线性回归" />
       <item itemvalue="Python.3-2 minist数据集分类简单版本" />
       <item itemvalue="Python.3-2" />
     </list>
@@ -362,7 +349,6 @@
       <list>
         <item itemvalue="Python.3-2" />
         <item itemvalue="Python.3-2 minist数据集分类简单版本" />
-        <item itemvalue="Python.3-1 非线性回归" />
         <item itemvalue="Python.3-1 线性回归" />
       </list>
     </recent_temporary>
@@ -378,17 +364,26 @@
       <option name="presentableId" value="Default" />
       <updated>1551552895687</updated>
     </task>
+    <task id="LOCAL-00001" summary="3-3">
+      <created>1551625113010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551625113010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1497006" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1511976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25075528" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25075528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25377643" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,6 +406,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3-3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,9 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,9 +473,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/ops/nn_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2744">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/training/gradient_descent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/examples/tutorials/mnist/input_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
+        <state>
           <folding>
             <element signature="e#746#784#0" expanded="true" />
           </folding>
@@ -488,46 +508,25 @@
     </entry>
     <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
+        <state relative-caret-position="75516">
           <caret line="2715" column="4" selection-start-line="2715" selection-start-column="4" selection-end-line="2715" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/training/gradient_descent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-920">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
+        <state relative-caret-position="8260">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Users/Parker/Anaconda3/Lib/site-packages/tensorflow/python/ops/nn_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../../../智能获客/3-4 上传/baize/baize/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/3-2 minist数据集分类简单版本.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
