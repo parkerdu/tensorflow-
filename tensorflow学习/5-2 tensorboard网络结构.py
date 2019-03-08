@@ -15,9 +15,13 @@ batch_size = 100
 # 计算总共多少批次
 n_batch = mnist.train.num_examples // batch_size
 
-# 定义两个占位符
-x = tf.placeholder(tf.float32, [None, 784])
-y = tf.placeholder(tf.float32, [None, 10])
+
+
+# 命名空间
+with tf.name_scope('input'):
+    # 定义两个占位符
+    x = tf.placeholder(tf.float32, [None, 784], name='x-input')
+    y = tf.placeholder(tf.float32, [None, 10], name='y-input')
 
 # 创建一个简单的神经网络 只有输入输出层
 W = tf.Variable(tf.zeros([784,10]))
@@ -44,11 +48,12 @@ correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(prediction, 1))  # argm
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))  # cast将布尔类型转换成浮点型所以true变为1，f变为0，再求平均值就是准确率
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
-    for epoch in range(21):
+    writer = tf.summary.FileWriter('logs/', sess.graph) # 在当前文件的log文件下写入当前程序图结构
+    for epoch in range(1):
         for batch in range(n_batch):
             batch_xs, batch_ys = mnist.train.next_batch(batch_size)  # batch_xs保存图片数据  batchys保存图片标签
             sess.run(train_step, feed_dict={x:batch_xs, y:batch_ys})
-            print(sess.run(prediction,feed_dict={x:batch_xs}))
+            # print(sess.run(prediction,feed_dict={x:batch_xs}))
         acc = sess.run(accuracy, feed_dict={x:mnist.test.images,y:mnist.test.labels})
         print('Period'+str(epoch)+',Test Accuracy'+str(acc))
 

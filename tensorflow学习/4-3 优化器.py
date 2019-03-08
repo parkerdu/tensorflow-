@@ -1,8 +1,8 @@
-""""
+"""
 只有输入输出层
 激活函数softmax
-代价函数：二次代价函数
-优化器：梯度下降
+代价函数：交叉熵tf.nn.softmax_cross_entropy_with_logits
+优化器：对梯度下降进行修改
 """
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
@@ -32,9 +32,15 @@ prediction = tf.nn.softmax(tf.matmul(x, W)+b)
 
 
 # 二次代价函数
-loss = tf.reduce_mean(tf.square(y-prediction))
+# loss = tf.reduce_mean(tf.square(y-prediction))
+# 修改代价函数为softmax交叉熵函数
+loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels = y, logits = prediction ))
+
 # 使用梯度下降法
-train_step = tf.train.GradientDescentOptimizer(0.2).minimize(loss)
+# train_step = tf.train.GradientDescentOptimizer(0.2).minimize(loss)
+
+# 修改优化器  收敛速度比梯度下降快
+train_step = tf.train.AdadeltaOptimizer(0.01).minimize(loss)
 
 # 是否准确结果存放在一个布尔列表
 correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(prediction, 1))  # argmax(y, 1)是返回y向量最大值的下标
@@ -48,7 +54,6 @@ with tf.Session() as sess:
         for batch in range(n_batch):
             batch_xs, batch_ys = mnist.train.next_batch(batch_size)  # batch_xs保存图片数据  batchys保存图片标签
             sess.run(train_step, feed_dict={x:batch_xs, y:batch_ys})
-            print(sess.run(prediction,feed_dict={x:batch_xs}))
+            # print(sess.run(prediction,feed_dict={x:batch_xs}))
         acc = sess.run(accuracy, feed_dict={x:mnist.test.images,y:mnist.test.labels})
         print('Period'+str(epoch)+',Test Accuracy'+str(acc))
-
